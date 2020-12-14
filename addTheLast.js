@@ -5,7 +5,13 @@ let food = ['apple', 'orange', 'cake', 'carrots', 'pasta', 'rice', 'eggs'];
 let numbers = ['1', '2', '3', '4'];      
 
 const addTheLast = function (arr1, arr2) {
+   arr1.push(arr2[arr2.length - 1]);
+   
+
+   console.log(arr1);
 
 };
 
 addTheLast(food, numbers);
+
+

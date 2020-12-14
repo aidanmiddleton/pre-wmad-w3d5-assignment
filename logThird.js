@@ -6,7 +6,11 @@ let example = [1, 2, 3, 4, 'five', 6, 7];
 let example2 = [1, 2];
 
 const logThird= function (arr) {
-
+    if (arr.length < 4) {
+        console.log("there is no third item")
+    } else {
+        console.log(arr[3]);
+    }
 };
 
 logThird(example);

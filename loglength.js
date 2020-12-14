@@ -3,7 +3,7 @@
 let example = [1, 2, 3, 4, 'five', 6, 7];
 
 const logLength = function (arr) {
-
+    console.log(arr.length);
 };
 
 logLength(example);

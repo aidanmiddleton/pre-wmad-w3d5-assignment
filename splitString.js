@@ -4,9 +4,9 @@
 let sentence = "I am a sentence"
 
 const splitSentence= function (str) {
-
+    console.log(str.split(' '));
 };
 
 splitSentence(sentence);
 
-// expected output = ["I", "am", "a", "sentence"]
+// expected output = ["I", "am", "a", "sentence"]3

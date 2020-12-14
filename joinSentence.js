@@ -3,9 +3,16 @@ let brokenSentence = ['I', 'am', 'a', 'broken', 'sentence'];
 
 
 const joinSentence = function (arr) {
+    let result = '';
 
+    for (i = 0; i < arr.length; i ++) {
+
+        result += `${arr[i]} `
+    }
+
+    return result
 };
 
-joinSentence(brokenSentence);
+console.log(joinSentence(brokenSentence));
 
 // output = "I am a broken string"

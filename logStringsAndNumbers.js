@@ -5,7 +5,13 @@
 let example = [1, 'dog', 3, 'eight', 5, 'car', 7, 8];
 
 const logStringsAndNumbers = function (arr) {
-
+    for (i = 0; i < arr.length; i++) {
+        if (typeof arr[i] === "string") {
+            console.log(`This item is a string: ${arr[i]}`);
+        } else if (typeof arr[i] === "number") {
+            console.log(arr[i]);
+        }
+    }
 };
 
 logStringsAndNumbers(example);
